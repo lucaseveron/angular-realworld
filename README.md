@@ -11,7 +11,9 @@ docker-compose up -d
 4. Exposición y orquestación de la aplicación mediante Kubernetes. Se utiliza un manifiesto de deployment, service y namespace:
    
 kubectl apply -f deployment.yml
+
 kubectl get pods
+
 kubectl get service
 
 
