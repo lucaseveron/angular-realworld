@@ -1,3 +1,22 @@
+Pasos:
+
+1. Creación de Dockerfile para compilar y dockerizar la aplicación. Utliza como servidor estatico NGINX.
+
+2. Automatización de la construcción y despliegue de la aplicación en el repositorio de imágenes Docker Hub, utilizando la herramienta GitHub Actions.
+
+3. Exposición y construcción de la aplicación a través de Docker Compose para el entorno local:
+
+docker-compose up -d
+
+4. Exposición y orquestación de la aplicación mediante Kubernetes. Se utiliza un manifiesto de deployment, service y namespace:
+   
+kubectl apply -f deployment.yml
+kubectl get pods
+kubectl get service
+
+
+Herramientas a instalar: Windows: Docker Desktop y un editor de código, como Visual Studio Code o Sublime. Ubuntu: Docker, un cluster de Kubernetes (Minikube o Microk8s). Podman (opcional): Utilizado para verificar la conexión con la API.
+
 [![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)
 [![Build Status](https://travis-ci.org/gothinkster/angular-realworld-example-app.svg?branch=master)](https://travis-ci.org/gothinkster/angular-realworld-example-app)
 
