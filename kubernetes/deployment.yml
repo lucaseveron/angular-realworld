@@ -33,3 +33,9 @@ spec:
       port: 80
       targetPort: 80
   type: NodePort
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: flask-app
