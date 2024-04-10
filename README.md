@@ -17,7 +17,9 @@ kubectl get pods
 kubectl get service
 
 
-Herramientas a instalar: Windows: Docker Desktop y un editor de código, como Visual Studio Code o Sublime. Ubuntu: Docker, un cluster de Kubernetes (Minikube o Microk8s). Podman (opcional): Utilizado para verificar la conexión con la API.
+Herramientas a instalar: Windows: Docker Desktop y un editor de código, como Visual Studio Code o Sublime. 
+
+Ubuntu: Docker, un cluster de Kubernetes (Minikube o Microk8s). Podman (opcional): Utilizado para verificar la conexión con la API.
 
 [![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)
 [![Build Status](https://travis-ci.org/gothinkster/angular-realworld-example-app.svg?branch=master)](https://travis-ci.org/gothinkster/angular-realworld-example-app)
